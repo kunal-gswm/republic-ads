@@ -6,28 +6,28 @@ const steps = [
     step: "01",
     title: "Discovery",
     description:
-      "We dive deep into your business, competitors, and market to understand the full landscape and identify opportunities.",
+      "Deep dive into your business, competitors, and market opportunities.",
   },
   {
     icon: Lightbulb,
     step: "02",
     title: "Strategy",
     description:
-      "Based on our findings, we develop a custom performance marketing strategy aligned with your growth goals.",
+      "Development of a custom marketing plan tailored to your budget and goals.",
   },
   {
     icon: Rocket,
     step: "03",
     title: "Launch",
     description:
-      "We execute the strategy across channels with meticulous attention to targeting, creative, and tracking.",
+      "Execution across selected channels with precise targeting and tracking.",
   },
   {
     icon: BarChart,
     step: "04",
-    title: "Report & Optimize",
+    title: "Optimize",
     description:
-      "Weekly reporting, monthly reviews, and continuous optimization to maximize your marketing ROI.",
+      "Weekly reporting and continuous adjustments to maximize ROI.",
   },
 ]
 
@@ -45,7 +45,7 @@ export function ProcessSection() {
             <em className="text-primary not-italic">impact</em>
           </h2>
           <p className="text-lg text-foreground-muted leading-relaxed">
-            A proven methodology refined over hundreds of successful campaigns.
+            A 4-step methodology refined over hundreds of campaigns.
           </p>
         </div>
 

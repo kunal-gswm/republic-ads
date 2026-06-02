@@ -40,7 +40,7 @@ export function Footer() {
               <span className="text-[#73767B] select-none">Ads</span>
             </Link>
             <p className="text-sm text-foreground-muted mt-4 leading-relaxed max-w-xs">
-              Premium performance marketing for ambitious brands ready to scale.
+              Performance marketing for brands ready to scale.
             </p>
           </div>
 

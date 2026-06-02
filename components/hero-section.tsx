@@ -58,8 +58,8 @@ export function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-lg lg:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-in-up animation-delay-100">
-            <span className="font-semibold text-primary">Republic</span><span className="font-semibold text-foreground-muted">Ads</span> is a premium performance marketing agency specializing in
-            measurable growth strategies that deliver real results for ambitious brands.
+            <span className="font-semibold text-primary">Republic</span><span className="font-semibold text-foreground-muted">Ads</span> is a performance marketing agency specializing in
+            measurable growth strategies that deliver real results for brands of all sizes.
           </p>
 
           {/* CTAs */}

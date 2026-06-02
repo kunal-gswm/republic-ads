@@ -94,29 +94,8 @@ export function CtaSection() {
               Ready to <em className="text-primary not-italic font-bold">scale</em> your performance?
             </h2>
             <p className="text-lg text-foreground-muted leading-relaxed mb-8">
-              Book your free 30-minute bespoke growth audit. Our team of senior strategists will custom-analyze your marketing and pre-locate leaks in your funnel.
+              Book a free 30-minute growth audit. Our strategists will analyze your marketing to locate conversion leaks and build a custom 90-day scaling roadmap.
             </p>
-
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start gap-3 text-sm text-foreground-muted">
-                <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-3 h-3 text-primary" />
-                </div>
-                <span><strong>Funnel & Leak Analysis:</strong> Discover exactly where you are losing high-intent ad traffic.</span>
-              </li>
-              <li className="flex items-start gap-3 text-sm text-foreground-muted">
-                <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-3 h-3 text-primary" />
-                </div>
-                <span><strong>Competitor Benchmarking:</strong> See what keywords and search queries your rivals are targeting.</span>
-              </li>
-              <li className="flex items-start gap-3 text-sm text-foreground-muted">
-                <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-3 h-3 text-primary" />
-                </div>
-                <span><strong>A Bespoke 90-Day Roadmap:</strong> Take home a structured scaling execution plan, completely free.</span>
-              </li>
-            </ul>
 
 
           </div>

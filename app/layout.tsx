@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Outfit } from 'next/font/google'
+import { Cormorant_Garamond, Outfit, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -12,6 +12,13 @@ const cormorant = Cormorant_Garamond({
 
 const outfit = Outfit({ 
   subsets: ["latin"],
+  variable: "--font-outfit",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-sans",
   display: "swap",
 });
@@ -45,8 +52,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${outfit.variable} bg-background`}>
-      <body className="font-sans antialiased">
+    <html lang="en" className={`${cormorant.variable} ${outfit.variable} ${playfair.variable} bg-background`}>
+      <body className="font-sans font-bold antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

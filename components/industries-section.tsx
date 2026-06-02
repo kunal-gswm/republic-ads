@@ -20,14 +20,13 @@ export function IndustriesSection() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
           <p className="text-sm uppercase tracking-widest text-primary mb-4">
-            Industries
+            Industries We Serve
           </p>
           <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground leading-tight mb-6">
             Experience across <em className="text-primary not-italic">verticals</em>
           </h2>
           <p className="text-lg text-foreground-muted leading-relaxed">
-            We&apos;ve driven growth for brands across diverse industries, adapting our
-            strategies to each sector&apos;s unique challenges.
+            Custom growth strategies across multiple verticals:
           </p>
         </div>
 

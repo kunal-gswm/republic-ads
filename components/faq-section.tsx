@@ -11,32 +11,32 @@ const faqs = [
   {
     question: "How long until we see results?",
     answer:
-      "It depends on the channel. Paid media campaigns typically show initial results within 2-4 weeks, with optimization continuing over 2-3 months. SEO is a longer-term play, usually showing significant movement in 3-6 months. We set realistic expectations upfront and provide regular progress updates.",
+      "Paid media campaigns typically show initial results within 2–4 weeks. SEO is a longer-term strategy, usually showing significant growth in 3–6 months.",
   },
   {
-    question: "What makes you different from other agencies?",
+    question: "What makes you different?",
     answer:
-      "Three things: transparency, focus, and accountability. We don't hide behind vanity metrics or complicated reports. We measure success by revenue impact, and we're small enough to give your account the senior-level attention it deserves—no junior staff running your campaigns.",
+      "We focus entirely on revenue impact instead of vanity metrics, maintain complete transparency, and provide dedicated attention to every account.",
   },
   {
-    question: "What's your pricing structure?",
+    question: "What is your pricing structure?",
     answer:
-      "We offer flexible pricing based on scope and complexity. Most clients start with a retainer model that includes strategy, execution, and reporting. We're happy to discuss your specific needs on a discovery call and provide a custom proposal.",
+      "We offer flexible pricing options tailored to your specific budget, goals, and scope of work.",
   },
   {
     question: "Do you require long-term contracts?",
     answer:
-      "We typically start with a 3-month commitment to give campaigns enough time to optimize and prove results. After that, we move to month-to-month. We believe in earning your business every month, not locking you into lengthy agreements.",
+      "We start with a 3-month optimization period, then transition to a flexible month-to-month commitment.",
   },
   {
     question: "Can you work with our existing team?",
     answer:
-      "Absolutely. We often work alongside in-house marketers, complementing their efforts rather than replacing them. We can handle specific channels, provide strategic oversight, or serve as an extension of your team—whatever makes the most sense for your organization.",
+      "Yes. We can manage specific channels, provide strategic oversight, or operate as an extension of your in-house team.",
   },
   {
     question: "What industries do you specialize in?",
     answer:
-      "We've worked across e-commerce, SaaS, healthcare, finance, and professional services. While we have deep experience in these verticals, our data-driven approach translates well across industries. The fundamentals of performance marketing remain consistent.",
+      "We work across e-commerce, SaaS, healthcare, finance, retail, and professional services. Our data-driven framework adapts to any industry.",
   },
 ]
 
@@ -50,7 +50,7 @@ export function FaqSection() {
             FAQ
           </p>
           <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground leading-tight">
-            Common <em className="text-primary not-italic">questions</em>
+            Frequently Asked <em className="text-primary not-italic">Questions</em>
           </h2>
         </div>
 

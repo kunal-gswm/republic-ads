@@ -1,27 +1,27 @@
 const approaches = [
   {
     numeral: "i",
-    title: "Data First, Always",
+    title: "Data First",
     description:
-      "Every decision we make is rooted in data. We use advanced analytics and attribution modeling to understand what truly moves the needle for your business, eliminating guesswork from your marketing strategy.",
+      "Every decision is rooted in advanced analytics and attribution modeling.",
   },
   {
     numeral: "ii",
-    title: "Quality Over Quantity",
+    title: "Revenue Focus",
     description:
-      "We believe in fewer, higher-quality leads rather than vanity metrics. Our campaigns are optimized for revenue impact, not just clicks or impressions that look good on a dashboard.",
+      "We optimize for business growth and revenue impact, not vanity metrics.",
   },
   {
     numeral: "iii",
-    title: "Transparent Partnership",
+    title: "Full Transparency",
     description:
-      "No black boxes or hidden strategies. You get full visibility into our process, access to all data, and regular strategic sessions where we align on priorities and performance.",
+      "Clear reporting, open data access, and regular strategy alignment.",
   },
   {
     numeral: "iv",
     title: "Continuous Optimization",
     description:
-      "Marketing is never set and forget. We run continuous testing cycles, analyze results weekly, and iterate rapidly to ensure your campaigns improve month over month.",
+      "Weekly analysis and rapid testing cycles to improve performance month over month.",
   },
 ]
 
@@ -39,9 +39,7 @@ export function ApproachSection() {
               A different kind of <em className="text-primary not-italic">agency</em>
             </h2>
             <p className="text-lg text-foreground-muted leading-relaxed">
-              We built <span className="font-semibold text-primary">Republic</span><span className="font-semibold text-foreground-muted">Ads</span> to be the agency we wished existed when we were on
-              the brand side. No fluff, no BS—just results-driven marketing with
-              complete transparency.
+              A straightforward, results-driven agency built on transparency.
             </p>
           </div>
 

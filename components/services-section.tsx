@@ -5,37 +5,37 @@ const services = [
     icon: Search,
     title: "SEO",
     description:
-      "Technical optimization, content strategy, and link building to dominate organic search rankings.",
+      "Technical optimization, content strategy, and link building for organic search growth.",
   },
   {
     icon: MousePointerClick,
     title: "Google Ads",
     description:
-      "High-intent search campaigns, shopping ads, and display retargeting for maximum ROI.",
+      "High-intent search campaigns, shopping ads, and display retargeting.",
   },
   {
     icon: Target,
     title: "Meta Ads",
     description:
-      "Precision targeting across Facebook and Instagram with creative that converts.",
+      "Precision targeting across Facebook and Instagram with converting creatives.",
   },
   {
     icon: BarChart3,
     title: "Analytics",
     description:
-      "Custom dashboards, attribution modeling, and actionable insights to guide decisions.",
+      "Custom dashboards, attribution modeling, and data-driven insights.",
   },
   {
     icon: Mail,
     title: "Email Marketing",
     description:
-      "Automated flows, segmentation, and campaigns that nurture leads into loyal customers.",
+      "Automated flows, segmentation, and retention campaigns.",
   },
   {
     icon: Megaphone,
     title: "Content Strategy",
     description:
-      "Editorial planning, copywriting, and distribution that builds authority and drives traffic.",
+      "Editorial planning, copywriting, and multi-channel distribution.",
   },
 ]
 
@@ -52,8 +52,7 @@ export function ServicesSection() {
             Full-spectrum <em className="text-primary not-italic">performance</em> marketing
           </h2>
           <p className="text-lg text-foreground-muted leading-relaxed">
-            From acquisition to retention, we provide end-to-end marketing solutions
-            tailored to your growth objectives.
+            Full-spectrum performance marketing to handle your growth from acquisition to retention.
           </p>
         </div>
 
