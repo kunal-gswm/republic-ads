@@ -82,7 +82,7 @@ export function CtaSection() {
     <section id="audit-form" className="py-12 lg:py-20 px-6 lg:px-8 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column - Copywriting details */}
           <div className="lg:col-span-5 text-left animate-fade-in-up">
 
@@ -99,7 +99,7 @@ export function CtaSection() {
           {/* Right Column - Premium Wizard Form */}
           <div className="lg:col-span-7 w-full">
             <div className="bg-card/45 backdrop-blur-md border border-border/50 rounded-2xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.015)] relative hover-lift transition-all duration-300">
-              
+
               {/* Radial gradient backing the wizard */}
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent pointer-events-none rounded-2xl" />
 
@@ -138,7 +138,7 @@ export function CtaSection() {
                           placeholder="e.g. www.yourbrand.com"
                           value={website}
                           onChange={(e) => setWebsite(e.target.value)}
-                          className="w-full pl-11 pr-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-sm"
+                          className="w-full pl-11 pr-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-base"
                         />
                       </div>
                     </div>
@@ -175,11 +175,10 @@ export function CtaSection() {
                               key={ch}
                               type="button"
                               onClick={() => handleChannelToggle(ch)}
-                              className={`p-4 rounded-xl border text-xs font-semibold tracking-wide transition-all duration-200 ${
-                                isSelected
+                              className={`p-4 rounded-xl border text-xs font-semibold tracking-wide transition-all duration-200 ${isSelected
                                   ? "bg-primary/10 border-primary text-primary shadow-[inset_0_0_10px_rgba(163,121,48,0.05)] scale-[1.01]"
                                   : "bg-background/40 border-border/40 text-foreground-muted hover:border-primary/20 hover:text-foreground"
-                              }`}
+                                }`}
                             >
                               {ch}
                             </button>
@@ -198,7 +197,7 @@ export function CtaSection() {
                         value={challenge}
                         onChange={(e) => setChallenge(e.target.value)}
                         rows={3}
-                        className="w-full px-4 py-3.5 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-sm leading-relaxed"
+                        className="w-full px-4 py-3.5 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-base leading-relaxed"
                       />
                     </div>
 
@@ -239,7 +238,7 @@ export function CtaSection() {
                           placeholder="Your Name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          className="w-full px-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-sm"
+                          className="w-full px-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-base"
                         />
                       </div>
                       <div>
@@ -249,7 +248,7 @@ export function CtaSection() {
                           placeholder="Your Work Email"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          className="w-full px-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-sm"
+                          className="w-full px-4 py-4 rounded-xl border border-border/50 bg-background/40 text-foreground placeholder:text-foreground-muted/40 focus:outline-none focus:ring-2 focus:ring-primary/45 focus:border-primary transition-all text-base"
                         />
                       </div>
                     </div>
@@ -270,11 +269,10 @@ export function CtaSection() {
                               key={d}
                               type="button"
                               onClick={() => setSelectedDate(d)}
-                              className={`px-4 py-2.5 rounded-full border text-[10px] lg:text-xs font-bold tracking-wider transition-all duration-200 ${
-                                isSelected
+                              className={`px-4 py-2.5 rounded-full border text-[10px] lg:text-xs font-bold tracking-wider transition-all duration-200 ${isSelected
                                   ? "bg-primary border-primary text-white shadow-md shadow-primary/20 scale-105"
                                   : "bg-background/40 border-border/40 text-foreground-muted hover:border-primary/30 hover:text-foreground"
-                              }`}
+                                }`}
                             >
                               {d}
                             </button>
@@ -308,7 +306,7 @@ export function CtaSection() {
                     <div className="w-16 h-16 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center mb-6 mx-auto animate-pulse-slow select-none">
                       <Check className="w-7 h-7 text-primary animate-bounce" />
                     </div>
-                    
+
                     <h3 className="font-serif text-2xl lg:text-3xl font-semibold text-foreground mb-4">
                       Audit Request Locked!
                     </h3>
