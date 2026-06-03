@@ -9,7 +9,7 @@ const services = [
   },
   {
     icon: MousePointerClick,
-    title: "Google Ads",
+    title: "Google\u200BAds",
     description:
       "High-intent search campaigns, shopping ads, and display retargeting.",
   },

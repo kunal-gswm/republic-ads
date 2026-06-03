@@ -14,7 +14,7 @@ export function CtaSection() {
   const [selectedDate, setSelectedDate] = useState<string>("")
 
   // Available Channels
-  const channels = ["SEO", "Google Ads", "Meta Ads", "Email Marketing"]
+  const channels = ["SEO", "Google\u200BAds", "Meta Ads", "Email Marketing"]
 
   const handleChannelToggle = (channel: string) => {
     if (selectedChannels.includes(channel)) {
@@ -44,10 +44,6 @@ export function CtaSection() {
   }
 
   const handleNext = () => {
-    if (step === 1 && !website) {
-      alert("Please enter your website URL to proceed.")
-      return
-    }
     if (step === 2 && selectedChannels.length === 0) {
       alert("Please select at least one channel to analyze.")
       return
@@ -133,13 +129,12 @@ export function CtaSection() {
                     {/* Website Input */}
                     <div className="text-left mb-8">
                       <label className="text-sm font-medium text-foreground block mb-3">
-                        Website URL
+                        Website URL (Optional)
                       </label>
                       <div className="relative">
                         <Globe className="absolute left-4 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-foreground-muted" />
                         <input
                           type="url"
-                          required
                           placeholder="e.g. www.yourbrand.com"
                           value={website}
                           onChange={(e) => setWebsite(e.target.value)}
@@ -323,7 +318,7 @@ export function CtaSection() {
 
                     <div className="bg-background-secondary border border-border/50 rounded-xl p-5 text-left max-w-sm mx-auto text-xs text-foreground-muted leading-relaxed mb-8">
                       <strong className="text-foreground block mb-1">What happens next?</strong>
-                      Our analytics squad will inspect your website (<strong className="text-foreground text-xs">{website}</strong>) to identify traffic leaks and efficiency gains for <strong className="text-foreground">{selectedChannels.join(", ")}</strong>. We will email your calendar invite shortly!
+                      Our analytics squad will inspect your {website ? <>website (<strong className="text-foreground text-xs">{website}</strong>)</> : 'digital presence'} to identify traffic leaks and efficiency gains for <strong className="text-foreground">{selectedChannels.join(", ")}</strong>. We will email your calendar invite shortly!
                     </div>
 
                     <Button
