@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export function HeroSection() {
   return (
@@ -50,38 +51,43 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
 
           {/* Headline */}
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance mb-8 animate-fade-in-up">
-            We help local businesses{" "}
-            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">get more customers</span> online with{" "}
-            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">Search, Ads & Maps</span>
-          </h1>
+          <ScrollReveal delay={0}>
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance mb-8">
+              We Bring{" "}
+              <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">Local Customers</span> to Your Door.
+            </h1>
+          </ScrollReveal>
 
           {/* Subheadline */}
-          <p className="text-lg lg:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-in-up animation-delay-100">
-            We handle your online marketing so you can focus on running your business. No confusing reports—just real growth and more sales.
-          </p>
+          <ScrollReveal delay={0.1}>
+            <p className="text-lg lg:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed mb-10">
+              When people nearby search for what you offer, we make sure they find you first. We turn online searches into real phone calls, bookings, and foot traffic for your growing business.
+            </p>
+          </ScrollReveal>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-200 w-full px-4 sm:px-0">
-            <Link href="#audit-form" className="w-full sm:w-auto">
-              <Button
-                size="lg"
-                className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-8 py-6 text-base hover-arrow-translate cursor-pointer"
-              >
-                Book a Free Audit
-                <ArrowRight className="w-4 h-4 ml-2 arrow-icon" />
-              </Button>
-            </Link>
-            <Link href="#results" className="w-full sm:w-auto">
-              <Button
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto border-border text-foreground hover:bg-secondary hover:text-secondary-foreground rounded-xl px-8 py-6 text-base transition-colors duration-200 hover-lift cursor-pointer"
-              >
-                See Our Results
-              </Button>
-            </Link>
-          </div>
+          <ScrollReveal delay={0.2}>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full px-4 sm:px-0">
+              <Link href="#audit-form" className="w-full sm:w-auto">
+                <Button
+                  size="lg"
+                  className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-8 py-6 text-base hover-arrow-translate cursor-pointer"
+                >
+                  Check Your Google Maps Ranking
+                  <ArrowRight className="w-4 h-4 ml-2 arrow-icon" />
+                </Button>
+              </Link>
+              <Link href="#results" className="w-full sm:w-auto">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="w-full sm:w-auto border-border text-foreground hover:bg-secondary hover:text-secondary-foreground rounded-xl px-8 py-6 text-base transition-colors duration-200 hover-lift cursor-pointer"
+                >
+                  See Our Results
+                </Button>
+              </Link>
+            </div>
+          </ScrollReveal>
 
         </div>
       </div>
