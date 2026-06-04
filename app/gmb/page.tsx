@@ -7,7 +7,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: 'Google My Business Optimization | RepublicAds',
-  description: 'Dominate the Google Map Pack. We optimize your GMB profile to drive foot traffic and phone calls to your local business.',
+  description: 'Dominate the Google Map Pack. We optimize your GMB profile to drive foot traffic and phone calls to your Delhi NCR business.',
 }
 
 export default function GmbPage() {
@@ -26,13 +26,13 @@ export default function GmbPage() {
             Google My Business Optimization
           </h1>
           <p className="text-lg text-foreground-muted leading-relaxed mb-12">
-            If you aren't in the top 3 of the Google Map Pack, you're losing customers to your competitors. We optimize your profile to ensure you capture local search intent.
+            If you aren't in the top 3 of the Google Map Pack, you're losing customers to your competitors. We optimize your profile to ensure you capture Delhi NCR search intent.
           </p>
         </div>
         
         <InlineCta 
           headline="Is your profile optimized to convert?"
-          subheadline="Let us analyze your GMB listing and show you exactly how to rank higher in your local area."
+          subheadline="Let us analyze your GMB listing and show you exactly how to rank higher in the Delhi NCR area."
         />
         
         <CtaSection />

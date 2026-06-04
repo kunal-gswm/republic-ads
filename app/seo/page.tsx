@@ -6,8 +6,8 @@ import { Search } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Local SEO Services | RepublicAds',
-  description: 'Boost your local search rankings with our expert SEO services. We help local businesses dominate search results and drive organic traffic.',
+  title: 'Delhi NCR SEO Services | RepublicAds',
+  description: 'Boost your Delhi NCR search rankings with our expert SEO services. We help Delhi NCR businesses dominate search results and drive organic traffic.',
 }
 
 export default function SeoPage() {
@@ -24,10 +24,10 @@ export default function SeoPage() {
             <Search className="w-8 h-8 text-primary" />
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
-            Search Engine Optimization for Local Businesses
+            Search Engine Optimization for Delhi NCR Businesses
           </h1>
-          <p className="text-lg text-foreground-muted leading-relaxed mb-12">
-            Turn your website into a lead generation machine. Our SEO strategies are designed specifically to help local businesses rank higher for high-intent searches in their area.
+          <p className="text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '100ms' }}>
+            Turn your website into a lead generation machine. Our SEO strategies are designed specifically to help Delhi NCR businesses rank higher for high-intent searches in their area.
           </p>
         </div>
         

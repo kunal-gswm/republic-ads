@@ -10,15 +10,15 @@ export function HeroSection() {
       {/* Hanging Background Service Cards */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         {/* SEO Card */}
-        <div className="absolute left-[15%] top-[12%] -rotate-6 opacity-[0.35] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow">
+        <div className="absolute left-[15%] top-[12%] -rotate-6 opacity-[0.35] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow hidden md:block">
           SEO
         </div>
         {/* Google Ads Card */}
-        <div className="absolute right-[16%] top-[14%] rotate-6 opacity-[0.4] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow-reverse">
+        <div className="absolute right-[16%] top-[14%] rotate-6 opacity-[0.4] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow-reverse hidden md:block">
           Google Ads
         </div>
         {/* Meta Ads Card */}
-        <div className="absolute left-[12%] top-[42%] -rotate-12 opacity-[0.3] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow-reverse">
+        <div className="absolute left-[12%] top-[42%] -rotate-12 opacity-[0.3] hover:opacity-[0.8] hover:scale-105 transition-all duration-300 pointer-events-auto cursor-default bg-card/40 backdrop-blur-xs border border-border/50 px-4 py-2.5 rounded-xl shadow-xs text-xs font-semibold tracking-wider text-primary uppercase select-none animate-float-slow-reverse hidden md:block">
           Meta Ads
         </div>
         {/* GMB Card */}
@@ -54,7 +54,7 @@ export function HeroSection() {
           <ScrollReveal delay={0}>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance mb-8">
               We Bring{" "}
-              <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">Local Customers</span> to Your Door.
+              <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">Delhi NCR Customers</span> to Your Door.
             </h1>
           </ScrollReveal>
 
@@ -71,7 +71,7 @@ export function HeroSection() {
               <Link href="#audit-form" className="w-full sm:w-auto">
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-8 py-6 text-base hover-arrow-translate cursor-pointer"
+                  className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl px-4 sm:px-8 py-5 sm:py-6 text-sm sm:text-base hover-arrow-translate cursor-pointer"
                 >
                   Check Your Google Maps Ranking
                   <ArrowRight className="w-4 h-4 ml-2 arrow-icon" />
@@ -81,7 +81,7 @@ export function HeroSection() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto border-border text-foreground hover:bg-secondary hover:text-secondary-foreground rounded-xl px-8 py-6 text-base transition-colors duration-200 hover-lift cursor-pointer"
+                  className="w-full sm:w-auto border-border text-foreground hover:bg-secondary hover:text-secondary-foreground rounded-xl px-4 sm:px-8 py-5 sm:py-6 text-sm sm:text-base transition-colors duration-200 hover-lift cursor-pointer"
                 >
                   See Our Results
                 </Button>

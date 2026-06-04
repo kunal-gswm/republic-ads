@@ -112,7 +112,7 @@ export function CtaSection() {
           {/* Left Column - Copywriting details */}
           <div className="lg:col-span-5 text-left animate-fade-in-up">
             <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground leading-tight mb-6">
-              Let's See How You Look to <em className="text-primary not-italic font-bold">Local Customers.</em>
+              Let's See How You Look to <em className="text-primary not-italic font-bold">Delhi NCR Customers.</em>
             </h2>
             <p className="text-lg text-foreground-muted leading-relaxed mb-8">
               Find out where you stand against your competitors. Drop your details below for a quick, no-pressure look at your current online presence.

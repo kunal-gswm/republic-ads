@@ -12,14 +12,14 @@ const services = [
   },
   {
     icon: Search,
-    title: "Local Search Optimization",
-    description: "We get your website to show up at the top of Google search results. More visibility means more local customers finding you before they find your competitors.",
+    title: "Delhi NCR Search Optimization",
+    description: "We get your website to show up at the top of Google search results. More visibility means more Delhi NCR customers finding you before they find your competitors.",
     span: "col-span-1 md:col-span-1 lg:col-span-1",
   },
   {
     icon: Target,
-    title: "Targeted Local Ads",
-    description: "We put your business directly in front of locals who are actively looking to buy. Stop wasting money on broad ads and start paying for real, qualified leads.",
+    title: "Targeted Delhi NCR Ads",
+    description: "We put your business directly in front of Delhi NCR customers who are actively looking to buy. Stop wasting money on broad ads and start paying for real, qualified leads.",
     span: "col-span-1 md:col-span-1 lg:col-span-1",
   },
 ]

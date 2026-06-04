@@ -5,7 +5,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: 'About Us | RepublicAds',
-  description: 'Learn about RepublicAds, the performance marketing agency dedicated to helping local businesses and startups scale.',
+  description: 'Learn about RepublicAds, the performance marketing agency dedicated to helping Delhi NCR businesses and startups scale.',
 }
 
 export default function AboutPage() {
@@ -21,10 +21,10 @@ export default function AboutPage() {
             Our Story
           </p>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
-            We are <em className="text-primary not-italic">growth partners</em> for local business
+            We are <em className="text-primary not-italic">growth partners</em> for Delhi NCR business
           </h1>
-          <p className="text-lg text-foreground-muted leading-relaxed mb-12 max-w-2xl mx-auto">
-            RepublicAds was founded with a single mission: to provide enterprise-level marketing strategies to local businesses and startups that need them the most.
+          <p className="text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '100ms' }}>
+            RepublicAds was founded with a single mission: to provide enterprise-level marketing strategies to Delhi NCR businesses and startups that need them the most.
           </p>
         </div>
         

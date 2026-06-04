@@ -22,7 +22,7 @@ export function JsonLd() {
         "telephone": "+91-9876543210",
         "priceRange": "$$",
         "image": "https://republicads.in/icon.png",
-        "description": "Performance marketing agency helping local businesses scale with SEO, Google Ads, and Meta Ads."
+        "description": "Performance marketing agency helping Delhi NCR businesses scale with SEO, Google Ads, and Meta Ads."
       },
       {
         "@type": "Service",

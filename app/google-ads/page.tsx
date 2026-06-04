@@ -7,7 +7,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: 'Google Ads Management | RepublicAds',
-  description: 'Stop wasting ad spend. We build and manage high-intent Google Ads campaigns that generate qualified leads for your local business.',
+  description: 'Stop wasting ad spend. We build and manage high-intent Google Ads campaigns that generate qualified leads for your Delhi NCR business.',
 }
 
 export default function GoogleAdsPage() {

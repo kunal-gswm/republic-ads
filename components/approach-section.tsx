@@ -1,9 +1,9 @@
 const approaches = [
   {
     numeral: "i",
-    title: "We Know Local Business",
+    title: "We Know Delhi NCR Business",
     description:
-      "We don't use cookie-cutter corporate strategies. We understand how local customers think and exactly what it takes to get them through your doors.",
+      "We don't use cookie-cutter corporate strategies. We understand how Delhi NCR customers think and exactly what it takes to get them through your doors.",
   },
   {
     numeral: "ii",
@@ -30,10 +30,10 @@ export function ApproachSection() {
               Why Choose Us
             </p>
             <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl font-semibold text-foreground leading-tight mb-6">
-              Your Local <em className="text-primary not-italic">Growth</em> Partner
+              Your Delhi NCR <em className="text-primary not-italic">Growth</em> Partner
             </h2>
             <p className="text-lg text-foreground-muted leading-relaxed">
-              We focus entirely on real-world results that matter to local business owners.
+              We focus entirely on real-world results that matter to Delhi NCR business owners.
             </p>
           </div>
 

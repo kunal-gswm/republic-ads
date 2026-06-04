@@ -19,8 +19,8 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'RepublicAds | Performance Marketing for Local Businesses & Startups',
-  description: 'RepublicAds is a performance marketing agency helping local businesses and startups scale through SEO, Google My Business optimization, Google Ads, and Meta Ads. Book your free growth audit today.',
+  title: 'RepublicAds | Performance Marketing for Delhi NCR Businesses & Startups',
+  description: 'RepublicAds is a performance marketing agency helping Delhi NCR businesses and startups scale through SEO, Google My Business optimization, Google Ads, and Meta Ads. Book your free growth audit today.',
   icons: {
     icon: '/icon.png',
     apple: '/icon.png',

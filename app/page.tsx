@@ -49,7 +49,7 @@ export default function HomePage() {
         <ServicesSection />
         
         <InlineCta 
-          headline="Ready to grow your local presence?"
+          headline="Ready to grow your Delhi NCR presence?"
           subheadline="Let our experts analyze your digital footprint and find the hidden conversion leaks."
         />
         
