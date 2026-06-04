@@ -2,23 +2,20 @@ import Link from "next/link"
 
 const footerLinks = {
   services: [
-    { href: "#", label: "SEO" },
-    { href: "#", label: "Google Ads" },
-    { href: "#", label: "Meta Ads" },
-    { href: "#", label: "Analytics" },
-    { href: "#", label: "Email Marketing" },
+    { href: "#services", label: "SEO" },
+    { href: "#services", label: "Google Ads" },
+    { href: "#services", label: "GMB Optimization" },
+    { href: "#services", label: "Meta Ads" },
+    { href: "#services", label: "Analytics" },
   ],
   company: [
-    { href: "#", label: "About" },
-    { href: "#", label: "Careers" },
-    { href: "#", label: "Blog" },
-    { href: "#", label: "Contact" },
+    { href: "#", label: "About (Coming Soon)" },
+    { href: "#", label: "Blog (Coming Soon)" },
+    { href: "#audit-form", label: "Contact" },
   ],
   resources: [
-    { href: "#", label: "Case Studies" },
-    { href: "#", label: "Guides" },
-    { href: "#", label: "Webinars" },
-    { href: "#", label: "Newsletter" },
+    { href: "#results", label: "Case Studies" },
+    { href: "#testimonials", label: "Testimonials" },
   ],
   legal: [
     { href: "#", label: "Privacy Policy" },

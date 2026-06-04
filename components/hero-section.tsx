@@ -51,15 +51,14 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance mb-8 animate-fade-in-up">
-            We help brands{" "}
-            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">scale</span> through{" "}
-            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">data-driven</span> marketing
+            We help local businesses{" "}
+            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">get more customers</span> online with{" "}
+            <span className="bg-gradient-to-r from-[#A37930] via-[#D8B478] to-[#A37930] bg-clip-text text-transparent font-bold">Search, Ads & Maps</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg lg:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-in-up animation-delay-100">
-            <span className="font-semibold text-primary">Republic</span><span className="font-semibold text-foreground-muted">Ads</span> is a performance marketing agency specializing in
-            measurable growth strategies that deliver real results for brands of all sizes.
+            We handle your online marketing so you can focus on running your business. No confusing reports—just real growth and more sales.
           </p>
 
           {/* CTAs */}
@@ -73,13 +72,13 @@ export function HeroSection() {
                 <ArrowRight className="w-4 h-4 ml-2 arrow-icon" />
               </Button>
             </Link>
-            <Link href="#services" className="w-full sm:w-auto">
+            <Link href="#results" className="w-full sm:w-auto">
               <Button
                 variant="outline"
                 size="lg"
                 className="w-full sm:w-auto border-border text-foreground hover:bg-secondary hover:text-secondary-foreground rounded-xl px-8 py-6 text-base transition-colors duration-200 hover-lift cursor-pointer"
               >
-                View Our Work
+                See Our Results
               </Button>
             </Link>
           </div>

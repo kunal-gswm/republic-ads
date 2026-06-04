@@ -1,12 +1,16 @@
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
-import { ApproachSection } from "@/components/approach-section"
-import { ProcessSection } from "@/components/process-section"
+import { HowWeWorkSection } from "@/components/how-we-work-section"
+import { ResultsSection } from "@/components/results-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
 import { IndustriesSection } from "@/components/industries-section"
 import { CtaSection } from "@/components/cta-section"
 import { FaqSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
+import { InlineCta } from "@/components/inline-cta"
+import { WhatsAppWidget } from "@/components/whatsapp-widget"
+import { StickyMobileCta } from "@/components/sticky-mobile-cta"
 
 export default function HomePage() {
   return (
@@ -38,13 +42,30 @@ export default function HomePage() {
       <div className="relative z-10">
         <Navigation />
         <HeroSection />
+        
         <ServicesSection />
-        <ApproachSection />
-        <ProcessSection />
+        
+        <InlineCta 
+          headline="Ready to grow your local presence?"
+          subheadline="Let our experts analyze your digital footprint and find the hidden conversion leaks."
+        />
+        
+        <ResultsSection />
+        <TestimonialsSection />
+        <HowWeWorkSection />
+        
+        <InlineCta 
+          headline="Want similar results for your business?"
+          subheadline="Get a custom 90-day growth roadmap tailored for your market and industry."
+        />
+        
         <IndustriesSection />
         <CtaSection />
         <FaqSection />
         <Footer />
+        
+        <WhatsAppWidget />
+        <StickyMobileCta />
       </div>
     </main>
   )

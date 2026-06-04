@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Outfit, Playfair_Display } from 'next/font/google'
+import { Cormorant_Garamond, Plus_Jakarta_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { Toaster } from "@/components/ui/sonner"
+import { JsonLd } from "@/components/json-ld"
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ 
@@ -10,23 +12,15 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const outfit = Outfit({ 
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-outfit",
-  display: "swap",
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-sans",
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: 'RepublicAds | Premium Performance Marketing Agency',
-  description: 'RepublicAds is a premium performance marketing agency helping brands scale through data-driven SEO, Google Ads, Meta Ads, and more. Book your free audit today.',
-  generator: 'v0.app',
+  title: 'RepublicAds | Performance Marketing for Local Businesses & Startups',
+  description: 'RepublicAds is a performance marketing agency helping local businesses and startups scale through SEO, Google My Business optimization, Google Ads, and Meta Ads. Book your free growth audit today.',
   icons: {
     icon: '/icon.png',
     apple: '/icon.png',
@@ -39,9 +33,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${outfit.variable} ${playfair.variable} bg-background`}>
-      <body className="font-sans font-bold antialiased">
+    <html lang="en" className={`${cormorant.variable} ${jakarta.variable} bg-background`}>
+      <body className="font-sans font-normal antialiased">
         {children}
+        <Toaster />
+        <JsonLd />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
